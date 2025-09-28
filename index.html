@@ -2,54 +2,221 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>My Story</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Irina Zadorina</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="fonts/fonts.css" />
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="https://practicum-content.s3.us-west-1.amazonaws.com/web-code/favicon.ico"
-    />
+    <link rel="icon" type="image/x-icon" href="./images/logo.png" />
   </head>
   <body class="page">
     <header class="header">
       <div class="overlay">
-        <p class="header__banner">Software Engineer</p>
-        <h1 class="header__title">Irina Zadorina</h1>
+        <p class="header__banner">Irina Zadorina</p>
+        <h1 class="header__title">Software Engineer</h1>
+        <nav class="nav">
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="#Projects">My projects</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#About">About me</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#Contacts">Contacts</a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </header>
     <article class="content">
-      <div class="card">
-        <img class="card__image" src="images/me.jpeg" alt="Happy woman in striped t-shirt">
-        <div class="card__content">
-          <h2 class="card__title">Me</h2>
-          <p class="card__text">I'm ex-ecologist from Russia. Now I live with my family in Israel. I have 2 kids, boys, 3 and 9 y.o. My husband is also ex-ecologist. We studied and worked together. </p>
+      <h2 class="content__title">Welcome!</h2>
+      <p class="welcome-text">
+        I’m a Frontend Developer passionate about creating clean, modern, and
+        user-friendly interfaces. My main focus is building fast, responsive,
+        and visually appealing web applications.
+      </p>
+      <p class="welcome-text">
+        While Frontend development is where I shine, I also studied full-stack
+        development. This means I understand how the back-end works, how it
+        connects with the Frontend, and how the whole system comes together. My
+        back-end experience is more limited compared to my Frontend work, but it
+        gives me the ability to collaborate effectively across the full
+        development process.
+      </p>
+      <p class="welcome-text">
+        If you’re looking for someone who can bring your ideas to life in the
+        browser while also speaking the language of the back-end, you’re in the
+        right place.
+      </p>
+    </article>
+    <article class="content" id="Projects">
+      <h2 class="content__title">My projects</h2>
+      <p class="welcome-text">
+        All of my projects are available at
+        <a
+          href="https://github.com/i-zadorina"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="project_link"
+        >
+          my GitHub profile </a
+        >and additional information you can find at
+        <a
+          href="https://recombine.ai/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="project_link"
+        >
+          Recombine&nbsp;AI</a
+        >
+      </p>
+    </article>
+
+    <article id="About" class="content">
+      <h2 class="content__title">A little about me</h2>
+
+      <div class="cards__container">
+        <div class="card">
+          <img
+            class="card__image"
+            src="images/me.jpeg"
+            alt="Happy woman in striped t-shirt"
+          />
+          <div class="card__content">
+            <h2 class="card__title">Me</h2>
+            <p class="card__text">
+              Full Stack Developer with 2 years of hands-on experience in
+              building responsive Frontend and scalable Backend applications.
+            </p>
+            <p class="card__text">
+              Strong STEM foundation with a background in Geography and
+              Engineering, bringing analytical thinking and attention to detail
+              from 10+ years in technical roles.
+            </p>
+            <p class="card__text">
+              Proficient in Agile practices with real-world use of Jira and
+              Trello for task and time management.
+            </p>
+          </div>
         </div>
-      </div>
-      <div class="card">
-        <img class="card__image" src="images/friends.jpeg" alt="Happy people on the beach with New Year's hats and christmas tree">
-        <div class="card__content">
-          <h2 class="card__title">Friends</h2>
-          <p class="card__text">I have a lot of friends around the world. I love to meeet with all of them, to discuss some interesting themes, travel together and have a fun.</p>
+        <div class="card">
+          <img
+            class="card__image"
+            src="images/work.jpg"
+            alt="Woman in t-shirt with flamingo in the office"
+          />
+          <div class="card__content">
+            <h2 class="card__title">Work</h2>
+            <p class="card__text">
+              I worked as ecologist in big Russian companies like Russian
+              Railways and Transneft. After moving to Israel I worked as an
+              underground infrastructure data engineer.
+            </p>
+            <p class="card__text">
+              After that, I completed a 1-year training at TripleTen Bootcamp to
+              become a FullStack Developer.
+            </p>
+            <p class="card__text">
+              During my studies, I started working at the startup
+              <a
+                href="https://recombine.ai/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="link"
+                >Recombine&nbsp;AI</a
+              >
+              as a Frontend developer, where I still work today.
+            </p>
+          </div>
         </div>
-      </div>
-      <div class="card">
-        <img class="card__image" src="images/work2.jpeg" alt="Woman in t-shirt with flamingo in the office">
-        <div class="card__content">
-          <h2 class="card__title">Work</h2>
-          <p class="card__text">As I said I worked by ecologist in Russia. I worked in a big russian companies like a Russuian Railways and Transneft. In Israel I worked by engineer of underground communication.</p>
+        <div class="card">
+          <img
+            class="card__image"
+            src="images/friends.jpeg"
+            alt="Happy people on the beach with New Year's hats and christmas tree"
+          />
+          <div class="card__content">
+            <h2 class="card__title">Friends</h2>
+            <p class="card__text">
+              I have a lot of friends around the world. I love to meet with all
+              of them, to discuss some interesting themes, travel together and
+              have a fun.
+            </p>
+            <p class="card__text">
+              Friends are my superpower that gives me energy and motivation to
+              move forward.
+            </p>
+          </div>
         </div>
-      </div>  
-      <div class="card">
-        <img class="card__image" src="images/hobby.jpeg" alt="Foot on skatebord">
-        <div class="card__content">
-          <h2 class="card__title">Hobbies</h2>
-          <p class="card__text">I love skiing, surfing, skatebording and travelling especially with family or friends. Recently I like singing and dancing.</p>
+
+        <div class="card">
+          <img
+            class="card__image"
+            src="images/dog.jpg"
+            alt="Foot on skateboard"
+          />
+          <div class="card__content">
+            <h2 class="card__title">Hobbies</h2>
+            <p class="card__text">
+              I love dogs, running, skiing, surfing, skateboarding and
+              travelling especially with my family and/or friends.
+            </p>
+            <p class="card__text">The Jerusalem Marathon is the best!</p>
+            <p class="card__text">
+              I also volunteer for A Dog's Life Organization, dogsitter and
+              dogwalker.
+            </p>
+          </div>
         </div>
       </div>
     </article>
+
+    <article id="Contacts" class="content">
+      <h2 class="content__title">Contacts</h2>
+      <div class="cards__container">
+        <div class="contacts__col">
+          <h3>Address:</h3>
+          <p>Israel, Ganne Tiqwa, Derekh HaTikva, 27</p>
+          <h3>Phone:</h3>
+          <p>+972 54-616-40-16</p>
+        </div>
+
+        <div class="contacts__col">
+          <h3>E-mail:</h3>
+          <p>i.s.zadorina@gmail.com</p>
+          <a
+            href="https://www.linkedin.com/in/irina-developer/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="contacts__social-link"
+          >
+            <img
+              src="./images/linkedin.png"
+              alt="LinkedIn logo"
+              class="contacts__social-icon"
+            />
+            LinkedIn
+          </a>
+          <a
+            href="https://github.com/i-zadorina"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="contacts__social-link"
+          >
+            <img
+              src="./images/github.png"
+              alt="GitHub logo"
+              class="contacts__social-icon"
+            />
+            GitHub
+          </a>
+        </div>
+      </div>
+    </article>
+
     <footer class="footer">
-      <p class="signature">&copy; Irina Zadorina 2024</p>
+      <p class="signature">&copy; Irina Zadorina 2025</p>
     </footer>
   </body>
 </html>
