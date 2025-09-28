@@ -147,9 +147,12 @@ link {
 }
 
 .contacts__col h3,
-.contacts__col p,
-.contacts__col a {
+.contacts__col p {
   margin: 0 0 6px;
+}
+
+.contacts__col a {
+  margin: 0 0 10px;
 }
 
 .contacts__social-link {
