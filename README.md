@@ -1,4 +1,4 @@
-# aboutme
+# About me
 
 https://i-zadorina.github.io/me/
 
